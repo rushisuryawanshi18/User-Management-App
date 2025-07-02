@@ -8,7 +8,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: #e0e0e0;
+            background: rgb(236, 255, 220);
             padding: 40px;
         }
         .container {
@@ -35,6 +35,8 @@
             background-color: #2196F3;
             color: white;
             padding: 10px;
+            font-size: 16px;
+			font-weight: 600;
             border: none;
             border-radius: 4px;
             cursor: pointer;
