@@ -76,6 +76,6 @@ h2 {
 			<button class="btn1">Register</button>
 		</form>
 	</div>
-
+	
 </body>
 </html>
