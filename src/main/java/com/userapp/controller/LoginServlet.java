@@ -35,18 +35,18 @@ public class LoginServlet extends HttpServlet {
 			ResultSet rs = stmt.executeQuery();
 
 			if (rs.next()) {
-				out.println("<h2>Welcome, " + myemail + "!</h2>");
+				out.println("<h2 style=\'color: green;\'>Welcome, " + myemail + "!</h2>");
 			} else {
-				out.println("<h3>Invalid login!</h3>");
-				out.println("<p><a href='login.html'>Try again</a></p>");
+				out.println("<h3 style=\"color: red;\">Invalid login!</h3>");
+				out.println("<p><a href='login.jsp'>Try again</a></p>");
 			}
 
 		} catch (Exception e) {
 			e.printStackTrace();
-			out.println("<h3>Error occurred!</h3>");
+			out.println("<h3 style=\"color: blue:\">Error occurred!</h3>");
 		}
 
-		out.println("<p><a href='register.jsp'>Register</a></p>");
+		
 	}
 
 }
