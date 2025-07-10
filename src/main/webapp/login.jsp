@@ -53,7 +53,7 @@
 <body>
 	<div class="container">
     <h2>User Login</h2>
-    <form action="login" method="post">
+    <form action="login" method="get">
         <label for="email">Email</label>
         <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
